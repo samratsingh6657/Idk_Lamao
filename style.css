@@ -1,0 +1,46 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+.parallax {
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg1 {
+  background-image: url('https://picsum.photos/id/1018/1000/600');
+}
+
+.bg2 {
+  background-image: url('https://picsum.photos/id/1015/1000/600');
+}
+.b3{
+    background-image: url(https://fastly.picsum.photos/id/918/1000/600.jpg?hmac=NnjAB36mmMWIjznVcOtDxrHEgz7tMhq5JwcE4BLECX4);
+}
+
+.by{
+  background-image: url(https://fastly.picsum.photos/id/74/1000/600.jpg?hmac=6R8kXrtpLXGFJh1ymoO4wHubCIOhNjI8sVpXfst_AMI);
+}
+.static {
+  padding: 80px 40px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.content h1 {
+  font-size: 3rem;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
